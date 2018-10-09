@@ -11,6 +11,9 @@ vector<pair<int,int>>v;
 
 //stores if state is visited
 map< pair<int,int>,int >m;
+//dp[100][100]
+// -1
+// 1
 
 //Function to find next valid state
 bool next_state(int x,int y)
